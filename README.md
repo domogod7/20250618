@@ -1,2 +1,3 @@
 # 20250618
-this is test
+this is test 6월 18일 하던거 07list.html 이어서 한다네 이미다했긴 해서 일단 폴더는 만듬
+# 20250625
