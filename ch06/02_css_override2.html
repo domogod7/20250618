@@ -1,12 +1,19 @@
-<!DOCTYPE html> <html>
-<title>css 방식</title>
-
+<!DOCTYPE html>
+<html lang="ko">
 <head>
-<style>
-p { color: blue; } p { color: yellow; } p { color: red; }  
-</style>
-<!-- 외부   스타일   시트를   정의하는    위치가   중요(최종    적용) -->
-<link type="text/css" rel="stylesheet" href="02_css_override.css"></link> </head>
+    <meta charset="UTF-8">
+    <title>CSS 방식</title>
+
+    <style>
+        p { color: blue; }
+        p { color: yellow; }
+        p { color: red; }
+    </style>
+
+    <!-- 외부 스타일 시트 정의는 내부 스타일 시트 이후에 있어야 덮어씌울 수 있음 -->
+    <link rel="stylesheet" type="text/css" href="02_css_override.css" />
+</head>
 <body>
-<p>CSS가   중복   정의된    경우   어떤   것이   적용될까?</p> </body>
+    <p>CSS가 중복 정의된 경우 어떤 것이 적용될까?</p>
+</body>
 </html>
