@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>Positioning Style 예제</title>
+<style>
+  body {
+    font-weight: bold;
+    font-size: 12pt;
+  }
+  .sp1 {
+    position: relative;  /* static → relative 변경 */
+    top: 100px;          /* 이제 적용됨 */
+    background-color: cyan;
+    width: 400px;
+    height: 50px;
+  }
+  .sp2 {
+    position: relative;  /* static → relative 변경 */
+    left: 30px;          /* 이제 적용됨 */
+    background-color: orange;
+    width: 400px;
+    height: 50px;
+  }
+  .sp3 {
+    background-color: lightgreen;
+    width: 400px;
+    height: 50px;
+  }
+</style>
+</head>
+<body>
+  <h1>positioning style1</h1>
+  <p class="sp1">정적 위치 설정 적용1 (relative + top:100px)</p>
+  <div class="sp2">정적 위치 설정 적용2 (relative + left:30px)</div>
+  <p class="sp3">기본 위치 설정 (static)</p>
+</body>
+</html>

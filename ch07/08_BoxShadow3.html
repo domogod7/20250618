@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>이미지 그림자 예제</title>
+  <style>
+    img {
+      padding: 20px;
+      margin: 20px;
+    }
+
+    .shadow1 {
+      /* 오른쪽 아래 그림자 */
+      box-shadow: 5px 5px 10px #000;
+    }
+
+    .shadow2 {
+      /* 오른쪽 위 그림자 */
+      box-shadow: 5px -5px 10px #000;
+    }
+  </style>
+</head>
+<body>
+  <img src="pic1.jpg" class="shadow1" alt="그림자 아래 이미지">
+  <img src="pic2.jpg" class="shadow2" alt="그림자 위 이미지">
+</body>
+</html>
