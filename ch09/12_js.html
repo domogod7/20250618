@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8" />
+    <title>전역 변수와 지역 변수 이해하기 4</title>
+</head>
+<body>
+<script>
+    function getGrade() {  // 함수 정의
+        var kor = 95;     // 지역 변수
+        return kor;       // kor 값 반환
+    }
+    var getKor = getGrade();  // 함수 호출 후 반환값 저장
+
+    document.write("국어 점수 : " + getKor + "<br>");
+</script>
+</body>
+</html>
